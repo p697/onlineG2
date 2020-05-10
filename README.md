@@ -1,4 +1,4 @@
-# Remax Wechat Template
+# Remax 
 
 使用 Remax 开发的小项目
 

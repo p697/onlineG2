@@ -1,0 +1,90 @@
+
+
+.login {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #9CA8B8 ,#C1CBD7);
+  // background: #C1CBD7;
+
+  &-card {
+    position: absolute;
+    width: 68%;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    padding: 48px;
+    padding-bottom: 72px;
+    border-radius: 16px;
+    background-color: #fff;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, .1);
+  }
+
+  &-inputbox {
+    display: flex;
+    margin-bottom: 60px;
+    &-icon {
+      width: 10%;
+    }
+    &-input {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 20px;
+      width: 74%;
+      margin-left: 6%;
+      transition: border 0.2s;
+    }
+    &-focus {
+      border-bottom: 2px solid #555;
+    }
+    
+  }
+
+  &-icon {
+    width: 58px;
+    height: 58px;
+  }
+
+  &-eye {
+    position: absolute;
+    right: 48px;
+    width: 42px;
+    height: 42px;
+    z-index: 99;
+  }
+
+  &-input {
+    font-size: 36px;
+  }
+
+  &-button {
+    background: #8696A6;
+    color: #fff;
+    border: 0!important;
+    border-radius: 4px;
+    box-shadow:2px 2px 10px #aaa;
+  }
+  &-button::after {
+    border: 0;
+  }
+  &-button::before {
+    border: 0;
+  }
+
+  &-avatarbox {
+    height:262px;
+    width: 152px;
+    margin: auto;
+    padding-top: 22px;
+  }
+
+  &-avatar {
+    overflow:hidden;
+    display: block;
+    width: 168px;
+    height: 168px;
+    border-radius: 50%;
+  }
+}
+
+

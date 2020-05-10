@@ -1,0 +1,39 @@
+
+.mine {
+  background-color: #fafafa;
+  // 为了截图效果可以稍稍加深
+  height: 100%;
+  &-header {
+    padding-top: 36px;
+    // background-color: #9CA8B8;
+    background-image: linear-gradient(180deg, #9CA8B8 10%, #C1CBD7 100%);
+    padding-bottom: 136px;
+    &-avatar {
+      margin: auto;
+      overflow:hidden;
+      display: block;
+      width: 168px;
+      height: 168px;
+      border-radius: 50%;
+      // box-shadow: 0 0 10px #31C4CC;
+      border: 5px solid #FFF;
+    }
+    &-name {
+      width: fit-content;
+      margin: auto;
+      font-size: 36px;
+      margin-top: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+    &-code {
+      width: fit-content;
+      margin: auto;
+      font-size: 30px;
+      margin-top: 8px;
+      color: #fff;
+    }
+  
+  }
+
+}

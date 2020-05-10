@@ -1,0 +1,25 @@
+.headertext {
+  display: flex;
+  // justify-content: space-between;
+  flex-direction: column;
+  justify-content: left;
+  margin-bottom: 16px;
+  &-bigtitle {
+    color: #666;
+    font-size: 42px;
+    font-weight: bold;
+    margin-left: 5.5%;
+    padding: 0;
+    margin-bottom: 8px;
+  }
+  &-smalltitle {
+    font-size: 30px;
+    margin-left: 5.5%;
+    color: #888;
+    padding-top: 4px;
+    &-number {
+      display: inline;
+      color: #4980f9;
+    }
+  }
+}

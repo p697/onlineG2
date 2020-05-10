@@ -1,0 +1,29 @@
+.ptimeline {
+  position: absolute;
+  width: 84%;
+  left: 15%;
+  // top: 82px;  // 82px起始高度
+  // top: 1000px;  // 1000px终止高度。总长918px
+  height: 18px;
+  z-index: 40;
+  // background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &-dot {
+    height: 100%;
+    width: 3%;
+    border-radius: 50%;
+    background-color: #59abe3;
+  }
+
+  &-line{
+    opacity: 0.8;
+    height: 4px;
+    width: 98%;
+    background-color: #59abe3;
+  }
+
+
+}

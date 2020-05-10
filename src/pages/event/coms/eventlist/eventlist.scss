@@ -1,0 +1,140 @@
+.eventlist {
+  position: relative;
+  left: 23%;
+  width: 68%;
+  margin-top: 66px;
+  height: 918px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0;
+  justify-content: space-around;
+  // background-color: red;
+
+  &-eventbox {
+    z-index: 10;
+    height: 124px;
+    border-radius: 10px;
+    position: relative;
+    // margin: 3px 0;
+    &-none {
+      opacity: 0;
+      background-color: rgb(63, 81, 181, 0.35);  
+      border-top: 2px solid rgb(63, 81, 181, 0.3);  
+      border-bottom: 2px solid rgb(63, 81, 181, 0.3);  
+    }
+    &-noon {
+      height: 156px;
+      // height: 120px;
+      border-top: 2px solid rgb(63, 81, 181, 0.3);  
+      border-bottom: 2px solid rgb(63, 81, 181, 0.3);  
+    }
+    &-dusk {
+      height: 28px;
+      // height: 120px;
+      border-top: 2px solid rgb(63, 81, 181, 0.3);  
+      border-bottom: 2px solid rgb(63, 81, 181, 0.3);  
+    }
+    &-night {
+      height: 60px;
+      // height: 128px;
+      border-top: 2px solid rgb(63, 81, 181, 0.3);  
+      border-bottom: 2px solid rgb(63, 81, 181, 0.3);  
+    }
+
+    &-eventinfo {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    &-title {
+      color: #666;
+      font-size: 32px;
+      margin-left: 20px;
+      margin-top: 16px;
+    }
+    &-content {
+      color: #666;
+      font-size: 28px;
+      margin-left: 20px;
+      margin-top: 6px;
+    }
+    &-delete {
+      position: absolute;
+      right: 0;
+      width: 84px;
+      height: 124px;
+      // background-color: blue;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &-noon {
+        height: 156px;
+      }
+    }
+    &-deleteimg {
+      width: 60px;
+      height: 60px;
+      z-index: 10;
+      opacity: 0;
+      &-none {
+        width: 0;
+        height: 0;
+        z-index: -10;
+      }
+      &-show {
+        opacity: 0.9;
+        z-index: 30;
+      }
+    }
+    
+    &-blue {
+      background-color: rgb(30, 144, 255, 0.35);  
+      border-left: 4px solid rgb(30, 144, 255, 0.8);  
+      border-right: 2px solid rgb(30, 144, 255, 0.3);  
+      border-top: 2px solid rgb(30, 144, 255, 0.3);  
+      border-bottom: 2px solid rgb(30, 144, 255, 0.3);  
+    }
+    &-green {
+      background-color: rgb(46, 213, 115, 0.35);  
+      border-left: 4px solid rgb(46, 213, 115, 0.8);  
+      border-right: 2px solid rgb(46, 213, 115, 0.3);  
+      border-top: 2px solid rgb(46, 213, 115, 0.3);  
+      border-bottom: 2px solid rgb(46, 213, 115, 0.3);  
+    }
+    &-yellow {
+      background-color: rgb(255, 165, 2, 0.35);   
+      border-left: 4px solid rgb(255, 165, 2, 0.8);   
+      border-right: 2px solid rgb(255, 165, 2, 0.3);   
+      border-top: 2px solid rgb(255, 165, 2, 0.3);   
+      border-bottom: 2px solid rgb(255, 165, 2, 0.3);   
+    }
+    &-brown {
+      background-color: rgb(121, 85, 72, 0.35);   
+      border-left: 4px solid rgb(121, 85, 72, 0.8);   
+      border-right: 2px solid rgb(121, 85, 72, 0.3);   
+      border-top: 2px solid rgb(121, 85, 72, 0.3);   
+      border-bottom: 2px solid rgb(121, 85, 72, 0.3);   
+    }
+    &-purple {
+      background-color: rgb(255, 71, 87, 0.35);   
+      border-left: 4px solid rgb(255, 71, 87, 0.8);   
+      border-right: 2px solid rgb(255, 71, 87, 0.3);   
+      border-top: 2px solid rgb(255, 71, 87, 0.3);   
+      border-bottom: 2px solid rgb(255, 71, 87, 0.3);   
+    }
+    &-gray {
+      // background-color: rgb(87, 96, 111, 0.35);   
+      border-left: 4px solid rgb(87, 96, 111, 0.2);   
+      border-right: 2px solid rgb(87, 96, 111, 0.2);   
+      border-top: 2px solid rgb(87, 96, 111, 0.2);   
+      border-bottom: 2px solid rgb(87, 96, 111, 0.2);   
+      background: linear-gradient(
+        45deg, 
+        rgb(87, 96, 111, 0.12) 0, rgba(81, 96, 122, 0.12) 25%, rgb(87, 96, 111, 0.2) 25%, rgb(87, 96, 111, 0.2) 50%, 
+        rgb(87, 96, 111, 0.12) 50%, rgb(87, 96, 111, 0.12) 75%, rgb(87, 96, 111, 0.2) 75%, rgb(87, 96, 111, 0.2)
+      );
+      background-size: 80px 80px;
+    }
+  }
+}

@@ -2,6 +2,9 @@
 
 使用 Remax 开发的小项目
 
+## 开发日志
+https://www.yuque.com/player697/myblog/gicz1s
+
 ## 开始开发
 
 安装依赖
